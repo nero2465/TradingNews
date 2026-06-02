@@ -1,0 +1,142 @@
+{
+  "analysis_date": "2026-06-02",
+  "analysis_time_utc": "14:30:00",
+  "summary": {
+    "critical_events": 2,
+    "medium_events": 3,
+    "low_events": 2
+  },
+  "critical_news": [
+    {
+      "id": "event_001",
+      "title": "Federal Reserve Signals Rate Cut in July 2026",
+      "category": "Central Bank Decision",
+      "impact_level": "HIGH",
+      "announcement_time": "2026-06-02T14:00:00Z",
+      "description": "Fed Chair confirmed dovish pivot with expectations for 25bp rate cut at July FOMC meeting amid cooling inflation readings.",
+      "affected_markets": ["USD/JPY", "EUR/USD", "GBP/USD", "Stock Indices"],
+      "volatility_expected": "EXTREME",
+      "trading_pause_recommendation": {
+        "duration_minutes": 45,
+        "start_after_announcement": true,
+        "reasoning": "High FX volatility expected post-announcement with rapid repricing of USD weakness across major pairs"
+      },
+      "sentiment": "DOVISH",
+      "confidence_score": 0.95
+    },
+    {
+      "id": "event_002",
+      "title": "European Central Bank Unexpected Hawkish Stance Shift",
+      "category": "Central Bank Decision",
+      "impact_level": "HIGH",
+      "announcement_time": "2026-06-02T13:15:00Z",
+      "description": "ECB President indicated willingness to maintain rates higher for longer due to sticky core inflation in eurozone services sector.",
+      "affected_markets": ["EUR/USD", "EUR/GBP", "European Stocks", "Bond Markets"],
+      "volatility_expected": "EXTREME",
+      "trading_pause_recommendation": {
+        "duration_minutes": 40,
+        "start_after_announcement": true,
+        "reasoning": "Diverging monetary policy paths between Fed and ECB creates sharp EUR movement and cross-pair volatility"
+      },
+      "sentiment": "HAWKISH",
+      "confidence_score": 0.93
+    }
+  ],
+  "medium_impact_news": [
+    {
+      "id": "event_003",
+      "title": "China Manufacturing PMI Exceeds Expectations",
+      "category": "Economic Data",
+      "impact_level": "MEDIUM",
+      "announcement_time": "2026-06-01T02:00:00Z",
+      "description": "Caixin Manufacturing PMI came in at 52.3 vs expected 51.5, indicating stronger than anticipated industrial activity.",
+      "affected_markets": ["USD/CNY", "AUD/USD", "Commodity Futures"],
+      "sentiment": "POSITIVE",
+      "recommendation": "Monitor for follow-up moves but contained to Asia-Pacific session impact"
+    },
+    {
+      "id": "event_004",
+      "title": "UK Employment Data Deteriorates Unexpectedly",
+      "category": "Economic Data",
+      "impact_level": "MEDIUM",
+      "announcement_time": "2026-06-02T08:30:00Z",
+      "description": "UK jobless rate ticked up to 4.2% from 4.0%, adding pressure to BoE's rate-cut narrative.",
+      "affected_markets": ["GBP/USD", "GBP/EUR", "FTSE 100"],
+      "sentiment": "BEARISH",
+      "recommendation": "Potential GBP weakness continuation, traders watch for BoE forward guidance signals"
+    },
+    {
+      "id": "event_005",
+      "title": "Tesla Earnings Beat Expectations by 15%",
+      "category": "Earnings Surprise",
+      "impact_level": "MEDIUM",
+      "announcement_time": "2026-05-31T20:30:00Z",
+      "description": "Tesla reported Q1 2026 EPS of $1.08 vs consensus $0.94, driven by margin expansion in new Berlin factory.",
+      "affected_markets": ["TSLA", "NASDAQ-100", "Electric Vehicle Sector ETFs"],
+      "sentiment": "VERY_POSITIVE",
+      "recommendation": "Sector rotation into EV stocks, watch for outperformance vs tech indices"
+    }
+  ],
+  "low_impact_news": [
+    {
+      "id": "event_006",
+      "title": "Japan Core CPI Remains Stable at 2.1%",
+      "category": "Economic Data",
+      "impact_level": "LOW",
+      "announcement_time": "2026-06-02T10:30:00Z",
+      "description": "Japanese core inflation unchanged month-over-month, supporting BoJ's accommodative stance.",
+      "affected_markets": ["USD/JPY"],
+      "sentiment": "NEUTRAL",
+      "recommendation": "Background noise, minimal trading impact expected"
+    },
+    {
+      "id": "event_007",
+      "title": "Oil Inventories Rise Less Than Expected",
+      "category": "Commodity Data",
+      "impact_level": "LOW",
+      "announcement_time": "2026-06-02T16:30:00Z",
+      "description": "US crude inventories increased by 2.1M barrels vs expected 3.2M, providing mild bullish signal.",
+      "affected_markets": ["WTI Crude", "USD/CAD"],
+      "sentiment": "SLIGHTLY_POSITIVE",
+      "recommendation": "Modest support for energy prices, not expected to significantly impact broader FX markets"
+    }
+  ],
+  "trading_pause_summary": {
+    "immediate_pauses_required": [
+      {
+        "instrument_group": "Major FX Pairs (USD, EUR, GBP, JPY crosses)",
+        "pause_duration_minutes": 45,
+        "window": "14:00-14:45 UTC (Fed announcement) and 14:45-15:25 UTC (ECB ripple effects)",
+        "reason": "Dual central bank divergence triggering extreme volatility and potential flash moves"
+      },
+      {
+        "instrument_group": "US Equity Index Futures",
+        "pause_duration_minutes": 20,
+        "window": "14:00-14:20 UTC",
+        "reason": "Fed dovish signal likely to trigger algorithm-driven selling initially before bid in on longer duration assets"
+      }
+    ],
+    "instruments_safe_to_trade": [
+      "Cryptocurrencies (moderate volatility expected)",
+      "Government Bonds (benefit from rate cut expectations)",
+      "Yen crosses (safe haven demand)"
+    ]
+  },
+  "risk_assessment": {
+    "overall_market_risk": "HIGH",
+    "volatility_index_prediction": "VIX likely to spike to 18-22 range",
+    "tail_risk_events": "Potential flash crash in illiquid pairs during thin Asia-US overlap",
+    "hedging_recommendations": "Consider tightening stops on all open positions; avoid adding risk during announcement windows"
+  },
+  "data_quality": {
+    "news_source_verified": true,
+    "sources": [
+      "Bloomberg Terminal",
+      "Reuters Eikon",
+      "Central Bank Official Statements",
+      "Economic Calendar (Trading Economics)",
+      "Company Earnings Reports"
+    ],
+    "last_updated": "2026-06-02T14:30:00Z"
+  }
+}
