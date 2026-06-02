@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "10:00 UTC",
+  "blackout": false,
+  "risk": "MEDIUM",
+  "reason": "BOE Governor Bailey spricht - GBP Volatilität erwartet heute",
+  "affected_pairs": ["GBPUSD"],
+  "events": [
+    {
+      "time_utc": "14:00",
+      "title": "BOE Gov Bailey Speaks",
+      "currency": "GBP",
+      "impact": "HIGH"
+    }
+  ],
+  "pause_minutes": 30
+}
