@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "00:30 UTC",
+  "blackout": true,
+  "risk": "HIGH",
+  "reason": "4 hochrangige Ereignisse heute: ADP, ISM, BOJ, RBA Sprecher",
+  "affected_pairs": ["EURUSD", "USDJPY", "AUDUSD", "GBPUSD", "NZDUSD", "USDCAD"],
+  "events": [
+    {
+      "time_utc": "01:00",
+      "title": "RBA Gov Bullock Speaks",
+      "currency": "AUD",
+      "impact": "HIGH"
+    },
+    {
+      "time_utc": "04:30",
+      "title": "BOJ Gov Ueda Speaks",
+      "currency": "JPY",
+      "impact": "HIGH"
+    },
+    {
+      "time_utc": "08:15",
+      "title": "ADP Non-Farm Employment Change",
+      "currency": "USD",
+      "impact": "HIGH"
+    },
+    {
+      "time_utc": "10:00",
+      "title": "ISM Services PMI",
+      "currency": "USD",
+      "impact": "HIGH"
+    }
+  ],
+  "pause_minutes": 60
+}
