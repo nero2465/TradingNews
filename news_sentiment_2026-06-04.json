@@ -1,0 +1,18 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "14:30 UTC",
+  "blackout": false,
+  "risk": "MEDIUM",
+  "reason": "BOE Bailey spricht heute. Morgen kritische NFP und CAD-Daten.",
+  "affected_currencies": ["GBP"],
+  "affected_pairs": ["GBPUSD", "EURGBP", "GBPJPY", "GBPCHF", "GBPCAD", "GBPAUD", "GBPNZD"],
+  "events": [
+    {
+      "time_utc": "15:40",
+      "title": "BOE Gov Bailey Speaks",
+      "currency": "GBP",
+      "impact": "HIGH"
+    }
+  ],
+  "pause_minutes": 60
+}
