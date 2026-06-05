@@ -1,1 +1,56 @@
-{"date": "2026-06-05", "generated_at": "test", "blackout": false, "risk": "HIGH", "reason": "NFP heute — USD-Paare gesperrt", "affected_currencies": ["USD"], "affected_pairs": ["EURUSD", "GBPUSD", "USDJPY", "USDCHF", "USDCAD", "AUDUSD", "NZDUSD"], "events": [{"time_utc": "12:30", "title": "Non-Farm Payrolls", "currency": "USD", "impact": "HIGH"}], "pause_minutes": 60}
+{
+  "date": "2026-06-05",
+  "generated_at": "04:49 UTC",
+  "blackout": false,
+  "risk": "HIGH",
+  "reason": "NFP und Kanada-Beschäftigung heute – starke Marktvolatilität erwartet",
+  "affected_currencies": ["USD", "CAD"],
+  "affected_pairs": [
+    "EURUSD", "GBPUSD", "USDJPY", "USDCHF", "USDCAD", "AUDUSD", "NZDUSD",
+    "EURCAD", "GBPCAD", "CADJPY", "AUDCAD", "NZDCAD",
+    "GOLD", "SILVER", "XAUEUR", "US100"
+  ],
+  "events": [
+    {
+      "title": "Employment Change",
+      "country": "CAD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "10.6K",
+      "previous": "-17.7K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "country": "CAD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "6.9%",
+      "previous": "6.9%"
+    },
+    {
+      "title": "Average Hourly Earnings m/m",
+      "country": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.2%"
+    },
+    {
+      "title": "Non-Farm Employment Change",
+      "country": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "85K",
+      "previous": "115K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "country": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "4.3%",
+      "previous": "4.3%"
+    }
+  ],
+  "pause_minutes": 60
+}
