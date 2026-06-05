@@ -1,0 +1,1 @@
+{"date": "2026-06-05", "generated_at": "test", "blackout": false, "risk": "HIGH", "reason": "NFP heute — USD-Paare gesperrt", "affected_currencies": ["USD"], "affected_pairs": ["EURUSD", "GBPUSD", "USDJPY", "USDCHF", "USDCAD", "AUDUSD", "NZDUSD"], "events": [{"time_utc": "12:30", "title": "Non-Farm Payrolls", "currency": "USD", "impact": "HIGH"}], "pause_minutes": 60}
