@@ -1,0 +1,11 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "03:06 UTC",
+  "blackout": false,
+  "risk": "LOW",
+  "reason": "Keine hochvolatilen Ereignisse heute im Wirtschaftskalender vorhanden",
+  "affected_currencies": [],
+  "affected_pairs": [],
+  "events": [],
+  "pause_minutes": 0
+}
