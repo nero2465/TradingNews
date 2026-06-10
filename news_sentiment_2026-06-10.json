@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "03:06 UTC",
+  "blackout": false,
+  "risk": "HIGH",
+  "reason": "US-CPI-Daten und BOC-Zinsentscheid erwartet, hohe Volatilität bei USD und CAD.",
+  "affected_currencies": ["USD", "CAD"],
+  "affected_pairs": [
+    "EURUSD", "GBPUSD", "USDJPY", "USDCHF", "USDCAD", "AUDUSD", "NZDUSD",
+    "GOLD", "SILVER", "XAUEUR", "US100",
+    "EURCAD", "GBPCAD", "CADJPY", "AUDCAD", "NZDCAD"
+  ],
+  "events": [
+    {
+      "title": "Core CPI m/m",
+      "currency": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.4%"
+    },
+    {
+      "title": "Core CPI y/y",
+      "currency": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "2.9%",
+      "previous": "2.8%"
+    },
+    {
+      "title": "CPI m/m",
+      "currency": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "0.5%",
+      "previous": "0.6%"
+    },
+    {
+      "title": "CPI y/y",
+      "currency": "USD",
+      "time_utc": "12:30",
+      "impact": "High",
+      "forecast": "4.2%",
+      "previous": "3.8%"
+    },
+    {
+      "title": "BOC Rate Statement",
+      "currency": "CAD",
+      "time_utc": "13:45",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "title": "Overnight Rate",
+      "currency": "CAD",
+      "time_utc": "13:45",
+      "impact": "High",
+      "forecast": "2.25%",
+      "previous": "2.25%"
+    },
+    {
+      "title": "BOC Press Conference",
+      "currency": "CAD",
+      "time_utc": "14:30",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    }
+  ],
+  "pause_minutes": 60
+}
