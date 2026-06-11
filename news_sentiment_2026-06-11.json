@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "03:06 UTC",
+  "blackout": false,
+  "risk": "HIGH",
+  "reason": "ECB Zinsentscheidung und US PPI heute – starke Volatilität erwartet",
+  "affected_currencies": ["USD", "EUR"],
+  "affected_pairs": [
+    "EURUSD", "GBPUSD", "USDJPY", "USDCHF", "USDCAD", "AUDUSD", "NZDUSD",
+    "EURGBP", "EURJPY", "EURCHF", "EURCAD", "EURAUD",
+    "GOLD", "SILVER", "XAUEUR", "US100", "GERMANY40"
+  ],
+  "events": [
+    {
+      "time": "12:15 UTC",
+      "currency": "EUR",
+      "title": "Main Refinancing Rate",
+      "impact": "High",
+      "forecast": "2.40%",
+      "previous": "2.15%"
+    },
+    {
+      "time": "12:15 UTC",
+      "currency": "EUR",
+      "title": "Monetary Policy Statement",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "time": "12:30 UTC",
+      "currency": "USD",
+      "title": "Core PPI m/m",
+      "impact": "High",
+      "forecast": "0.5%",
+      "previous": "1.0%"
+    },
+    {
+      "time": "12:30 UTC",
+      "currency": "USD",
+      "title": "PPI m/m",
+      "impact": "High",
+      "forecast": "0.7%",
+      "previous": "1.4%"
+    },
+    {
+      "time": "12:45 UTC",
+      "currency": "EUR",
+      "title": "ECB Press Conference",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    }
+  ],
+  "pause_minutes": 60
+}
