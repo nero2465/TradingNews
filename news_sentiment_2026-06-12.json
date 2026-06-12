@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "03:05 UTC",
+  "blackout": false,
+  "risk": "MEDIUM",
+  "reason": "UK BIP-Daten heute: erhöhte Volatilität für GBP-Paare erwartet",
+  "affected_currencies": ["GBP"],
+  "affected_pairs": ["GBPUSD", "EURGBP", "GBPJPY", "GBPCHF", "GBPCAD", "GBPAUD", "GBPNZD"],
+  "events": [
+    {
+      "title": "GDP m/m",
+      "currency": "GBP",
+      "impact": "High",
+      "time": "06:00 UTC",
+      "forecast": "-0.1%",
+      "previous": "0.3%"
+    }
+  ],
+  "pause_minutes": 30
+}
